@@ -1,18 +1,9 @@
 <?php
-$mes = "Fevereiro";
-switch ($mes) {
-    case "Janeiro":
-        echo "Tem 31 dias";
-        break;
-        case "Fevereiro":
-        echo "Tem 28 dias";
-        break;
-    case "Março":
-        echo "Tem 31 dias";
-        break;
-    default:
-        echo "Mês inválido";    
-        break;
-}
+$nome ="AnaMorais";
+$idade = 16;
+$sexo="Mulher";
+$filme="JUNO";
+$salario=00.00;
 
-
+echo "Meu nome é $nome, tenho $idade anos, sou $sexo, meu filme favorito é $filme e meu salário é $salario!"
+?>
